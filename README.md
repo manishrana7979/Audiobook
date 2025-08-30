@@ -27,5 +27,5 @@ How to RUN:
 <ul>
 <li>Step 1 
   You need to install pythsx3 in your system.
-  Run 'pip3 install pyttsx3' in your terminal.</li>
+  Run <b>pip3 install pyttsx3</b> in your terminal.</li>
 </ul>
