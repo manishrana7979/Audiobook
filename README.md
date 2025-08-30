@@ -14,10 +14,18 @@ Import libraries:
 
 How this works (step-by-step)
 <ul>  
-<li>PdfReader('Manish_Data_Entry.pdf') → Opens and parses your PDF.</li>
+<li>PdfReader('Suno_kahani.pdf') → Opens and parses your PDF.</li>
 <li>reader.pages[2] → Gets the 3rd page object.</li>
 <li>page.extract_text() → Extracts all readable text from that page.</li>
 <li>pyttsx3.init() → Initializes the speech engine.</li>
 <li>speak.say(text) → Passes the text to be spoken.</li>
 <li>speak.runAndWait() → Actually speaks it out loud.</li>
+</ul>
+
+How to RUN:
+
+<ul>
+<li>Step 1 
+  You need to install pythsx3 in your system.
+  Run 'pip3 install pyttsx3' in your terminal.</li>
 </ul>
