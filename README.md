@@ -4,14 +4,16 @@ A simple Python project that converts PDF text into speech. It uses pypdf to ext
 What your code is trying to do
 
 Import libraries:
+<ul>
+  
+<li>pyttsx3 → Python text-to-speech library.</li>
 
-pyttsx3 → Python text-to-speech library.
+<li>pypdf.PdfReader → Reads PDF files.</li>
 
-pypdf.PdfReader → Reads PDF files.
+<li>Read PDF: You want to open suno_kahani.pdf and get text from the 3rd page (Python uses zero-based indexing, so page[0] means page 1).</li>
 
-Read PDF: You want to open Manish_Data_Entry.pdf and get text from the 3rd page (Python uses zero-based indexing, so page[2] means page 3).
-
-Convert text to speech: Using pyttsx3 to read the extracted text aloud.
+<li>Convert text to speech: Using pyttsx3 to read the extracted text aloud.</li>
+</ul>
 
 How this works (step-by-step)
 
