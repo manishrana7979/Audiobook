@@ -29,5 +29,5 @@ How to RUN:
 <li>Step 2 - Check Python version <mark>python --version</mark></li>
 <li>Step 3 - Check if Python can find it <mark>python -m pip show pyttsx3</mark></li>
 <li>Step 4 - Explicity install in that version <mark>python -m pip install pyttsx3</mark></li>
-<li>Step 5 - RUN this Program <mark>python audio_book.py</mark></li>
+<li>Step 5 - RUN this Program <mark><b>python audio_book.py</b></mark></li>
 </ul>
