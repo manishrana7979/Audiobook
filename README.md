@@ -5,7 +5,7 @@ What your code is trying to do
 
 Import libraries:
 <ul>
-  
+   
 <li>pyttsx3 → Python text-to-speech library.</li>
 <li>pypdf.PdfReader → Reads PDF files.</li>
 <li>Read PDF: You want to open suno_kahani.pdf and get text from the 3rd page (Python uses zero-based indexing, so page[0] means page 1).</li>
